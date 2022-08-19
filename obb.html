@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <style>
+
+    </style>
+</head>
+<body>
+
+
+
+<div class="container">
+    <form action="certi.php" method="post">
+        <h5 align="center" >  تسجيل طلبات تحويل الطلاب الى مدرسة سميرة موسى (املأ جميع البيانات ثم اضغط على زر تسجيل ثم ستظهر رساله "تم تسجيل البيانات بنجاح)"      </h5>
+        <div class="form-group has-feedback">
+            <label align="center" for="name">  الاسم رباعى  </label><br>
+            <span class="glyphicon glyphicon-user form-control-feedback"></span>
+            <input type="text" id="name" name="name" class="form-control" required>
+        </div>
+        <div class="form-group has-feedback">
+            <label align="center" for="names">        اسم المدرسة المقيد بها الطالب  </label><br>
+            <span class="glyphicon glyphicon-home form-control-feedback"></span>
+            <input type="text" id="names" name="names" class="form-control" >
+        </div>
+        <div class="form-group has-feedback">
+            <label align="center" for="nameadmin">      اسم الادارة التعليمية التابع لها المدرسة</label><br>
+            <span class="glyphicon glyphicon-home form-control-feedback"></span>
+            <input type="text" id="nameadmin" name="nameadmin" class="form-control" >
+        </div>
+        <label align="center" name="gender"> اختر جنس الطالب </label><br>
+        <input type="radio"  name="gender" value="ذكر"> ذكر <br>
+        <input type="radio"  name="gender" value="انثى"> انثى<br>
+        <div class="form-group">
+            <label> اختر الصف الدراسى الحالى(داخل سنة كام) 2022-2023</label>
+            <select name="class_a"  class="form-control" >
+                <option value="" selected>اختر الصف الدراسى الحالى</option>
+
+                <option value="kg2">kg2</option>
+                <option value="الاول الابتدائى">الاول الابتدائى</option>
+                <option value="الثانى الابتدائى">الثانى الابتدائى</option>
+                <option value="الثالث الابتدائى">الثالث الابتدائى</option>
+                <option value="الرابع الابتدائى">الرابع الابتدائى</option>
+                <option value="الخامس الابتدائى">الخامس الابتدائى</option>
+                <option value="السادس الابتدائى">السادس الابتدائى</option>
+                <option value="الاول الاعدادى">الاول الاعدادى</option>
+                <option value="الثانى الاعدادى">الثانى الاعدادى</option>
+                <option value="الثالث الاعدادى">الثالث الاعدادى</option>
+                <option value="الاول الثانوى">الاول الثانوى</option>
+                <option value="الثانى الثانوى">الثانى الثانوى</option>
+                <option value="الثالث الثانوى">  الثالث الثانوى</option>
+
+            </select>
+
+
+            <input type="submit" name="add" value="submit" class="btn btn-primary">
+
+            </div>
+
+</form>
+
+
+
+<!-- Optional theme -->
+
+
+            <!-- Latest compiled and minified JavaScript -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+            </body>
+            </html>
